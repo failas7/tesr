@@ -25,8 +25,10 @@
     <link href="assets/css/theme.css" rel="stylesheet">
     <link href="assets/css/theme-green-1.css" rel="stylesheet" >
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
 
 </head>
 <body id="home" class="wide">
@@ -85,7 +87,7 @@
                                 <div class="container">
                                     <div class="slide-caption-inner">
                                     <img src="assets/img/includes/banner-min.png" alt="Responsive image" class="img-fluid">
-                                    <h3 class="slide-subtitle">A style for every story</h3>
+                                    <h1 class="slide-subtitle" style="font-family: 'Cinzel', serif;">A style for every story</h1>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +101,7 @@
         <!-- /Main Slider -->
 
         <!-- Feature -->
-        <section class="page-section" id="about">
+        <section class="page-section">
             <div class="container">
                 <!-- <hr class="page-divider half"/> -->
                 <div class="row">
@@ -138,8 +140,8 @@
                         <div class="media" data-animation="fadeInUp" data-animation-delay="500">
                             <div><img src="assets/img/includes/user.png" alt=""/></div>
                             <div class="media-body">
-                                <h4 class="media-heading">Value Customer</h4>
-                                <p>Live your world, live your Moments.</p>
+                                <h4 class="media-heading">Wholesale Customer</h4>
+                                <p>Sales are done to wholesale customers only.</p>
                             </div>
                         </div>
                     </div>
@@ -165,6 +167,7 @@
 
                 <div class="item col-sm-6">
                     <article class="post-wrap thumbnail">
+                       <img src="assets/img/includes/fb-banner.jpg" alt="fb-banner">
                         <div class="post-media">
                             <div class="thumbnail no-border ">
                                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fjakleaflanka%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
@@ -175,9 +178,37 @@
                     </div>
                <div class="item col-sm-6">
                     <article class="post-wrap thumbnail">
+                       <img src="assets/img/includes/insta-banner.jpg" alt="fb-banner">
                         <div class="post-media">
                             <div class="thumbnail no-border ">
-                                <iframe src="http://instagram.com/p/B1-xhaSlNFK/embed" width="500" height="580" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="test" data-theme="g">
+<div data-theme="g" data-role="header">
+    <a href="javascript:history.back()" data-icon="back" data-iconpos="notext"></a>
+</div>
+
+<div data-role="content">
+
+<iframe width="500" height="500" src="http://instagram.com/p/B1-xhaSlNFK/embed" frameborder="0"></iframe>
+
+            <script>
+            var query = location.search.substring(1);
+            var parameters = {};
+            var keyValues = query.split(/&/);
+            for (var i = 0; i < keyValues.length;i++) {
+                var keyValuePairs = keyValues[i].split(/==/);
+                var key = keyValuePairs[0];
+                var value = keyValuePairs[1];
+                parameters[key] = value;
+            }
+                $(document).on("pageshow", '#test', function() {
+                    console.log(parameters['instagram']);
+                    document.getElementById('iframeInstagram').src = parameters['instagram'];
+                });
+            </script>
+    </div></div>
+<!------------------------------------------------------------------------------------------------------------------------------------>
                             </div>
                         </div>
 
@@ -201,22 +232,11 @@
                     <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="thumbnail do-up no-border">
                             <img src="assets/img/includes/ceo.jpg" class="img-responsive" alt="">
-                            <div class="caption">
-                                <div class="caption-wrapper div-table">
-                                    <div class="div-cell">
-                                        <h4 class="caption-title">Mr. M. H. M Rashard</h4>
-                                        <p class="caption-category"><a href="#">Co-Founder</a></p>
-                                       
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-9 col-md-3" style="margin-top: 7%">
-                       <p style="font-size: 4vh; text-align: justify;">“Our ambition is to drive a high-performance
-                        culture, putting fashion at the heart of customers,
-                        remaining true to our values and our purpose:
-                        to help people do more, feel better, live longer.”</p>
+                       <p style="font-size: 5vh; text-align: justify;">“Our ambition is to drive least to best clothing values to all kinds of customers with a truly retaining standard and quality.”</p>
+                       <p style="font-family: 'Autograf PERSONAL USE ONLY';font-weight: normal;font-style: normal; font-size: 7vh">M Rashard</p><p>M H M Rashard (CEO)</p>
                     </div>
                 </div>
             </div>
@@ -272,23 +292,25 @@
         <!-- /Testimonials -->
 
         <!-- About event -->
-        <section class="page-section about-event">
+        <section class="page-section about-event" id="about">
             <div class="container">
 
                 <h3 class="section-title text-center" data-animation="fadeInUp" data-animation-delay="100">
-                    What's all about
+                    What's all about<small></small>
                 </h3>
 
                 <div class="row">
 
                     <div class="col-md-6">
+                      
+                       <h3>Our Dedication</h3>
+                        <p class="text-lg" style="text-align: justify;">We are most recognized and most popular branded wholesale customer based garment company in Sri Lanka. Undertake any type of sales without decpreciation of quality and standards of clothing by also reduced work time targets are achieved with skilled workforce. Customer suggestions are open heartedly accepted to make future changes in the industry along with the collaboration to Sri Lanka's most governmental biased management panel.</p>
+                        
                         <h3>Our Vision</h3>
-
-                        <p class="text-lg">We strive to be a leader in fashion-knit and fashion outerwear by empowering innovation and design to provide total customer satisfaction in Sri Lanka. We strive to be a caring and well-managed organization for our business partners ,customers and employees, and a responsible corporate citizen to our society.</p><br>
+                        <p class="text-lg" style="text-align: justify;">We strive to be a leader in fashion-knit and fashion outerwear by empowering innovation and design to provide total customer satisfaction in Sri Lanka. We strive to be a caring and well-managed organization for our business partners ,customers and employees, and a responsible corporate citizen to our society.</p>
                         
                         <h3>Our Mission</h3>
-
-                        <p class="text-lg">To innovate, to lead, to enhance, to provide best-value products and services to Sri lankan customers. To make a difference through our branding to stay ahead of fashion trends, market changes and the latest technology. To enhance the quality of life for our business partners,customers and employees.</p>
+                        <p class="text-lg" style="text-align: justify;">To innovate, to lead, to enhance, to provide best-value products and services to Sri lankan customers. To make a difference through our branding to stay ahead of fashion trends, market changes and the latest technology. To enhance the quality of life for our business partners,customers and employees.</p>
                         <hr class="page-divider half hidden-md"/>
                     </div>
 
@@ -366,29 +388,6 @@
             </div>
         </section>
         <!-- /About event -->
-
-        <!-- Subscribe -->
-        <section class="page-section parallax subscribe">
-            <div class="container div-table">
-
-                <div class="parallax-bg" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-150"></div>
-                <div class="parallax-overlay"></div>
-                <div class="parallax-inner text-center">
-
-                    <h3 class="section-title" data-animation="fadeInUp" data-animation-delay="100">For latest news <small></small></h3>
-                    <form class="subscribe" id="subscribe" role="form">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="mc-email" placeholder="Enter your mail here">
-                            <label class="error" for="mc-email" id="email1_error"></label>
-                        </div>
-                        <button type="submit" class="btn btn-theme btn-theme-primary btn-subscribe">Subscribe</button>
-                    </form>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- /Subscribe -->
         
         <!-- Partners -->
         <section class="page-section" id="sponsors">
@@ -428,8 +427,10 @@
                     <p class="directions-icon"><i class="fa fa-map-marker"></i></p>
                     <p>Jakleaf Lanka (PVT) LTD</p>
                     <p>Negambo Road Bamunawala Kurunegala</p>
-                    <p>081 566 4464</p>
-                    <p class="directions-mailto"><a href="mailto:hello@eventme.com">jakleaflanka@gmail.com</a></p>
+                    <p>Tel: 081 566 4464</p>
+                    <p style="font-weight: bold">Hotline: 077 742 6469</p>
+             
+                    <p class="directions-mailto"><a href="mailto:jakleaflanka@gmail.com">jakleaflanka@gmail.com</a></p>
                     <p><a class="btn btn-theme btn-theme-white" href="https://www.google.com/maps/place/7%C2%B028'36.2%22N+80%C2%B020'03.7%22E/@7.476707,80.3337344,18z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3ae33a4370e09023:0xe3ea9503acd0f2f9!2sSudharshana+Mawatha,+Kurunegala!3b1!8m2!3d7.4790902!4d80.3350264!3m5!1s0x0:0x0!7e2!8m2!3d7.4767067!4d80.3343528" target="_blank">get directıons</a></p>
 
                 </div>
@@ -443,7 +444,7 @@
             <div class="container">
                 <div class="text-center">
                     <h3 class="section-title small-bottom">Get ın touch <small></small></h3>
-                    <p class="text-center">WE VALUE OUR CUSTOMER FEEDBACK</p>
+                    <p class="text-center" style="color: rgb(44, 95, 44); font-weight: bold;">OUR SALES ARE DONE TO WHOLESALE CUSTOMERS ONLY - CALL OUR HOTLINE FOR MORE INFORMATION</p>
                     <hr class="page-divider small"/>
 
                     <!-- form -->
@@ -477,7 +478,7 @@
                         <div class="col-sm-6 pull-left">
                             <div class="af-outer af-required">
                                 <div class="form-group af-inner">
-                                    <textarea name="message" id="input-message" cols="30" placeholder="Message *" class="form-control placeholder"></textarea>
+                                    <textarea name="message" id="input-message" cols="30" placeholder="Message" class="form-control placeholder"></textarea>
                                     <label class="error" for="input-message" id="message_error">Message is required.</label>
                                 </div>
                             </div>
@@ -506,9 +507,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center social-icons">
-                    <a class="social-icon" href="https://www.facebook.com/jakleaflanka" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a class="social-icon" href="http://instagram.com/jakleaflanka/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a class="social-icon" href="https://twitter.com/jakleaf" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="social-icon" href="https://www.facebook.com/jakleaflanka" target="_blank" style="border-color: #3b5998;"><i class="fa fa-facebook"></i></a>
+                    <a class="social-icon" href="http://instagram.com/jakleaflanka/" target="_blank" style="border-color: #f05c45;"><i class="fa fa-instagram"></i></a>
+                    <a class="social-icon" href="https://twitter.com/jakleaf" target="_blank" style="border-color: #00acee;"><i class="fa fa-twitter"></i></a>
 
                 </div>
                 <div class="col-sm-12 text-center">&copy; 2020 JakLeaf Pvt. Ltd. — Fashion for Freedom | Developed by <a href="http://ajsolutions.lk">AJ Solutions Pvt. Ltd.</a></div>
