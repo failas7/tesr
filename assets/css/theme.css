@@ -1679,12 +1679,12 @@ form.subscribe .subscribe-error {color: red;}
 }
 
 .boxed .main-slider .alternate .slide-caption .slide-caption-inner {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 @media (max-width: 991px) {
     .main-slider .alternate .slide-caption .slide-caption-inner {
-        width: 100%;
+        width: 30%;
     }
     .boxed .main-slider .alternate .slide-caption .slide-caption-inner {
         padding-left: 0;
