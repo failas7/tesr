@@ -35,7 +35,7 @@ ob_start();
 <?php
 $body = ob_get_contents();
 
-$to = 'jakleaflanka@gmail.com';
+$to = 'fasstar24@gmail.com';
 $toname = 'JakLeaf Lanka';
 //$anotheraddress = 'email@example.com';
 //$anothername = 'Another Name';
