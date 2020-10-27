@@ -1,8 +1,7 @@
 /**
-* Template Name: Bootslander - v2.2.0
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+ Name: jakleaf 
+* Author: Aj solutions
+* License: https://ajsolutions.lk
 */
 
 /*--------------------------------------------------------------
@@ -775,7 +774,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#FF0000 50%, rgba(205,32,31 ,0.4 ) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -816,14 +815,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
+  border: 5px solid rgba(205,32,31 ,0.6 ));
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #FF0000;
   transform: scale(20);
 }
 
@@ -1183,7 +1182,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Feed
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
