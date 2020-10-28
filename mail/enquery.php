@@ -28,18 +28,18 @@ if (array_key_exists('name', $_POST) && array_key_exists('mobile', $_POST) && ar
       $mail->SMTPSecure = "tls";
       $mail->Port       = 587;
       $mail->Host       = "smtp.gmail.com";
-      $mail->Username   = "mohamedfailas7@gmail.com";
-      $mail->Password   = "rpvhokiuytysgoxj";
+      $mail->Username   = "rashardhussain76@gmail.com";
+      $mail->Password   = "euiugwixxajpqkpc";
 
       $mail->IsHTML(true);
-      $mail->AddAddress("mohamedfailas7@gmail.com", "JakLeaf");
+      $mail->AddAddress("rashardhussain76@gmail.com", "JakLeaf");
 
-      $mail->SetFrom('mohamedfailas7@gmail.com', 'JakLeaf Lanka');
+      $mail->SetFrom('rashardhussain76@gmail.com', 'JakLeaf Lanka');
       $mail->Subject = "Customer Feedback From $senderName";
 
       $content = '<!doctype html>
       <html>
-      <head>
+      <head>s
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>WeCre8</title>
