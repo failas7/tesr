@@ -608,19 +608,18 @@ section {
   padding-bottom: 40px;
 }
 
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
+.section-title p {
+  font-size: 36px;
+  font-weight: 700;
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
-  letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #010483;
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+.section-title p::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -629,7 +628,7 @@ section {
   margin: 4px 10px;
 }
 
-.section-title p {
+.section-title h2 {
   margin: 0;
   margin: 0;
   font-size: 36px;

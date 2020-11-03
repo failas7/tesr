@@ -145,7 +145,6 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Jakleaf</h2>
                     <p>WHAT'S ALL ABOUT</p>
                 </div>
 
@@ -153,25 +152,25 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
                             <i class="fab fa-facebook" style="color: #3b5998;"></i>
-                            <h3><a href="https://www.facebook.com/jakleaflanka"">Facebook</a></h3>
+                            <h3><a href="https://www.facebook.com/jakleaflanka" target=" ">Facebook</a></h3>
             </div>
           </div>
           <div class=" col-lg-3 col-md-4 mt-4 mt-md-0">
                                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                         <i class="fab fa-instagram" style="color: #C13584;"></i>
-                                        <h3><a href="https://www.instagram.com/jakleaflanka/">Instagram</a></h3>
+                                        <h3><a href="https://www.instagram.com/jakleaflanka/" target=" ">Instagram</a></h3>
                                     </div>
                         </div>
                         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
                                 <i class="fab fa-youtube" style="color:  #FF0000;"></i>
-                                <h3><a href="https://www.youtube.com/channel/UCRWB2ena6x2-LkRyU6VpEfg">Youtube</a></h3>
+                                <h3><a href="https://www.youtube.com/channel/UCRWB2ena6x2-LkRyU6VpEfg" target=" ">Youtube</a></h3>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                                 <i class="fab fa-whatsapp" style="color: #25D366;"></i>
-                                <h3><a href="https://api.whatsapp.com/send?phone=94777426469&fbclid=IwAR2nozf5HKfanjf0JFkJFjieT_L1jgQ12qJVS5EXz9f3mzsXlgkPTGmKkgw">Whatsapp</a></h3>
+                                <h3><a href="https://api.whatsapp.com/send?phone=94777426469&fbclid=IwAR2nozf5HKfanjf0JFkJFjieT_L1jgQ12qJVS5EXz9f3mzsXlgkPTGmKkgw" target=" ">Whatsapp</a></h3>
                             </div>
                         </div>
                     </div>
@@ -185,7 +184,7 @@
 
                 <div class="row" data-aos="fade-up">
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="count-box">
                             <i class="icofont-simple-smile"></i>
                             <span data-toggle="counter-up">23</span>
@@ -193,7 +192,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
                         <div class="count-box">
                             <i class="icofont-document-folder"></i>
                             <span data-toggle="counter-up">521</span>
@@ -201,19 +200,11 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
                         <div class="count-box">
                             <i class="icofont-live-support"></i>
-                            <span data-toggle="counter-up">1,463</span>
+                            <span data-toggle="counter-up">365</span>
                             <p>Customer Support</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                        <div class="count-box">
-                            <i class="icofont-users-alt-5"></i>
-                            <span data-toggle="counter-up">15</span>
-                            <p>Admin Panel</p>
                         </div>
                     </div>
 
@@ -308,7 +299,6 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Gallery</h2>
                     <p>Check our Gallery</p>
                 </div>
 
@@ -439,7 +429,7 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Jakleaf</h2>
+                   
                     <p>Our Marque</p>
                 </div>
 
@@ -527,7 +517,7 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Jakleaf</h2>
+                    
                     <p>Connect With Us</p>
                 </div>
 
@@ -605,7 +595,7 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>F.A.Q</h2>
+                   
                     <p>Frequently Asked Questions</p>
                 </div>
 
@@ -615,7 +605,7 @@
                             <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Do you believe that your product material is exclusive? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
                                 <p>
-                                    Yes, Before importing our raw material sample is being brought to have an experiment on durability, and texture quality. After having the experiment and verifying its checkings, we import the materials to Sri Lanka.
+                                    Yes, Before importing our raw material sample is being brought to have an experiment on durability, and texture quality.
                                 </p>
                             </div>
                         </li>
@@ -624,7 +614,7 @@
                             <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Why do you sell products with low prices? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-parent=".faq-list">
                                 <p>
-                                    Our mission is to provide quality material products to the best lower prices, according to that we sell our products in a lower price range.
+                                    Our mission is provide the quality material products to the best lower prices. 
                                 </p>
                             </div>
                         </li>
@@ -648,10 +638,10 @@
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">If an item is returned, what are your regulations? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">If an item is returned, what is your company regulations? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-4" class="collapse" data-parent=".faq-list">
                                 <p>
-                                    Normally we don't have many sales returns yet, but in the future, if we get any return goods we would clarify it with our company policy and we will accept it heartily.
+                                    Normally we don't have many sales returns yet, but in future, if we get any return goods we would clarify with our company policy and we will accept it heartily.
                                 </p>
                             </div>
                         </li>
@@ -668,7 +658,6 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Contact</h2>
                     <p>Contact Us</p>
                 </div>
 
@@ -740,10 +729,12 @@
                             <p>
                                 JAKLEAF LANKA (PVT) LTD. <br>
                                 NEGAMBO ROAD, BAMUNAWALA, KURUNEGALA.<br><br>
+<!--
                                 <strong>Phone:</strong> 081 566 4464<br>
                                 <strong>Email:</strong> jakleaflanka@gmail.com<br>
+-->
                             </p>
-                            <a class="btn btn-success" href="https://www.google.com/maps/place/7%C2%B028'36.2%22N+80%C2%B020'03.7%22E/@7.476707,80.3337344,18z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3ae33a4370e09023:0xe3ea9503acd0f2f9!2sSudharshana+Mawatha,+Kurunegala!3b1!8m2!3d7.4790902!4d80.3350264!3m5!1s0x0:0x0!7e2!8m2!3d7.4767067!4d80.3343528">Get Direction</a>
+                            <a class="btn btn-success" href="https://www.google.com/maps/place/7%C2%B028'36.2%22N+80%C2%B020'03.7%22E/@7.476707,80.3337344,18z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3ae33a4370e09023:0xe3ea9503acd0f2f9!2sSudharshana+Mawatha,+Kurunegala!3b1!8m2!3d7.4790902!4d80.3350264!3m5!1s0x0:0x0!7e2!8m2!3d7.4767067!4d80.3343528" target=" ">Get Direction</a>
                         </div>
                     </div>
 
@@ -773,7 +764,7 @@
                     <div class="col-lg-4 col-md-6 footer-newsletter hdd" >
                         <h4>Our Newsletter</h4>
                         <p>Subscribe our newsletter </p>
-                        <form action="" method="post">
+                        <form action="#contact" method="post">
                             <input type="email" name="email"><input type="submit" value="Subscribe">
                         </form>
 
@@ -788,7 +779,7 @@
                 &copy; Copyright <strong><span>Jakleaf Lanka (PVT) Ltd. </span></strong> All Rights Reserved
             </div>
             <div class="credits">
-                Designed by <a href="www.ajsolutions.lk/">AJ Solutions (PVT) Ltd.</a>
+                Designed by <a href="http://www.ajsolutions.lk/" target=" ">AJ Solutions (PVT) Ltd.</a>
             </div>
         </div>
     </footer><!-- End Footer -->
